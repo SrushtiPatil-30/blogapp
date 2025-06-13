@@ -1,0 +1,50 @@
+.signup {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/009/362/398/original/blue-dynamic-shape-abstract-background-suitable-for-web-and-mobile-app-backgrounds-eps-10-vector.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  color: white;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 80%;
+}
+
+input {
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+}
+
+button {
+  background-color: #0056ff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+p {
+  margin-top: 20px;
+  cursor: pointer;
+  color: #ccc;
+  font-size: 14px;
+}

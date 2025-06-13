@@ -1,0 +1,62 @@
+.feed-container {
+  background: #f9f9f9;
+  font-family: sans-serif;
+  padding-bottom: 40px;
+}
+
+.navbar {
+  background: #59b4f0;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.btn {
+  padding: 8px 16px;
+  margin-left: 8px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-outline {
+  background: white;
+  color: #0056ff;
+  border: 2px solid #0056ff;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 16px 20px;
+}
+
+.tags {
+  margin-top: 16px;
+}
+
+.tag {
+  display: inline-block;
+  background: #e2e8f0;
+  color: #1e293b;
+  padding: 6px 12px;
+  margin: 4px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.post-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 20px;
+}

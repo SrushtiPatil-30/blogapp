@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffe0ec, #ffd6f6);
+}
+
+.auth-container {
+  width: 100%;
+  max-width: 360px;
+  margin: 80px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.auth-container h2 {
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.auth-container p {
+  margin-bottom: 24px;
+  font-size: 14px;
+  color: #666;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: none;
+  background: #f4e9f5;
+  font-size: 14px;
+}
+
+.primary-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #9c27b0;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.google-btn {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #9c27b0;
+  background: transparent;
+  color: #9c27b0;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.forgot {
+  display: block;
+  margin-top: 12px;
+  font-size: 13px;
+  color: #9c27b0;
+  text-decoration: none;
+}
+
+.or-divider {
+  margin: 12px 0;
+  font-size: 13px;
+  color: #aaa;
+}
